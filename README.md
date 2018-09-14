@@ -29,6 +29,7 @@ This module is built on a MERN (Mongo, Express, React, Node) stack.
 - Node >=6.7.0 (runtime environment)
 - npm >=6.0 (dependency manager)
 - MongoDB >=3.0 (database)
+[for linting] - Airbnb linter (install globally using ```npm i eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react -d```)
 
 ### Prod Dependencies (installed with npm)
 
@@ -39,8 +40,7 @@ This module is built on a MERN (Mongo, Express, React, Node) stack.
 - express (server framework)
 - faker (data generation)
 - mongoose (database connections)
-- 
-(running/watching server)
+- nodemon (running/watching server)
 - prop-types (validating component data)
 - react (component library)
 - react-dom (rendering component)
